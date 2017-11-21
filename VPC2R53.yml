@@ -141,7 +141,7 @@ Resources:
       - Ref: AvailabilityZone
       DesiredCapacity: 1
       Tags:
-        Key: Name
+      - Key: Name
         Value: xyzproduct_webserver_prod
         PropagateAtLaunch: true
       LaunchConfigurationName:
