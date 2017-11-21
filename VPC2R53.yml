@@ -140,6 +140,10 @@ Resources:
       AvailabilityZones:
       - Ref: AvailabilityZone
       DesiredCapacity: 1
+      Tags:
+        Key: Name
+        Value: xyzproduct_webserver_prod
+        PropagateAtLaunch: true
       LaunchConfigurationName:
         Ref: AppLaunchConfiguration
       LoadBalancerNames:
