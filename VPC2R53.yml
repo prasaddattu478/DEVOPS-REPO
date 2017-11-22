@@ -140,7 +140,7 @@ Resources:
     Properties:
       AvailabilityZones:
       - Ref: AvailabilityZone
-      DesiredCapacity: 1
+      DesiredCapacity: 2
       Tags:
       - Key: Name
         Value: xyzproduct_webserver_prod
