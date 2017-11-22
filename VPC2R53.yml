@@ -129,6 +129,7 @@ Resources:
       ImageId:
         Ref: ImageId
       InstanceType: t2.micro
+      KeyName: RDStest
       UserData:
         "Fn::Base64": !Ref userData
       SecurityGroups: 
